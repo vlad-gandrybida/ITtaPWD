@@ -1,0 +1,71 @@
+@import url('./colors.css');
+.form-inline {
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form div {
+    width: 100%;
+}
+
+.form-input {
+    width: 100%;
+    border: 3px solid var(--msu-green);
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px;
+    outline: none;
+    color: var(--msu-green);
+}
+
+.form-submit-button {
+    width: 100%;
+    border: 3px solid var(--msu-green);
+    background: var(--msu-green);
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.form-submit-button:hover {
+    background: var(--morning-blue);
+    cursor: pointer;
+    color: white;
+}
+
+.form-content {
+    width: 100%;
+    border: 3px solid var(--msu-green);
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: var(--msu-green);
+}
+
+.form-content:focus {
+    color: var(--msu-green);
+}
+
+.form-content-search-button {
+    width: 40px;
+    height: 36px;
+    border: 1px solid var(--msu-green);
+    background: var(--msu-green);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}

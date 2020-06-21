@@ -1,0 +1,21 @@
+@import url('./colors.css');
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+table tbody tr:hover {
+    background-color: var(--morning-blue);
+    color: #fff;
+}
+
+table th {
+    position: sticky;
+    top: -1px;
+    border: 1px solid black;
+    background-color: var(--msu-green);
+    color: white;
+}

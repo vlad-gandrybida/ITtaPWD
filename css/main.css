@@ -1,0 +1,10 @@
+@import url('./colors.css');
+@import url('./navigation.css');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+.info a {
+    color: var(--msu-green);
+}
+
+.info a:hover {
+    color: red;
+}
